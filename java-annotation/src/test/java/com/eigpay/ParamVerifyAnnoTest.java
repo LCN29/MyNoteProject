@@ -18,7 +18,6 @@ public class ParamVerifyAnnoTest {
         bean01.setSex("男");
         bean01.setName("滚滚滚");
         ParamVerifyHandler.Result result = new ParamVerifyHandler.Result();
-        System.out.println(bean01);
 
         try {
             result = ParamVerifyHandler.paramVerify(bean01);
