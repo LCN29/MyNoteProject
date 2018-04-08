@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAll">
+    <test name="database">
+        <groups>
+            <run>
+                <exclude name="brokenTests" />
+                <include name="db" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.eigpay.test.suite.TestDatabase" />
+        </classes>
+    </test>
+</suite>

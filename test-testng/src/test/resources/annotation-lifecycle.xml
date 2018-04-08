@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--@BeforeSuite-->
+<suite name="AnnotaionLifeCycleSuite">
+    <!--@BeforeTest-->
+    <test name="AnnotaionLifeCycleTest">
+        <!--@BeforeGroups-->
+        <groups>
+            <run>
+                <include name="base-group" />
+            </run>
+        </groups>
+        <!--@AfterGroups-->
+        <classes>
+            <!--@BeforeClass-->
+            <class name="com.eigpay.test.AnnotaionLifeCycleTest" />
+            <!--@AfterClass-->
+        </classes>
+    </test>
+    <!--@AfterTest-->
+</suite>
+<!--@AfterSuite-->

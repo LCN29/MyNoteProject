@@ -3,8 +3,10 @@ target/
 .project
 .settings/
 *.log
-*log*.zip
+*log
+*.zip
 .idea/
 *.iml
 .idea
+push.sh
 
