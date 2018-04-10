@@ -21,6 +21,7 @@
         <module>volatile-keyword</module>
         <module>java-annotation</module>
         <module>test-testng</module>
+        <module>slf4j-logback</module>
     </modules>
 
     <dependencyManagement>
