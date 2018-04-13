@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.0.RELEASE</version>
+        <version>2.0.1.RELEASE</version>
     </parent>
 
     <modules>
@@ -22,6 +22,8 @@
         <module>java-annotation</module>
         <module>test-testng</module>
         <module>slf4j-logback</module>
+        <module>lambda-study</module>
+        <module>mavne-study</module>
     </modules>
 
     <dependencyManagement>
@@ -37,7 +39,6 @@
 
     <build>
         <plugins>
-            <!-- 打包时跳过测试文件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -46,7 +47,6 @@
                     <skipTests>true</skipTests>
                 </configuration>
             </plugin>
-            <!-- 配置jdk版本 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -58,6 +58,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

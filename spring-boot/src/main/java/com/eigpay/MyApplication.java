@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date 2018-03-30 下午 05:25
  */
 
+
 @SpringBootApplication
 public class MyApplication {
 
