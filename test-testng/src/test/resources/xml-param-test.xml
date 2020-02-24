@@ -5,7 +5,7 @@
         <parameter name="dbconfig" value="db.properties" />
         <parameter name="poolsize" value="10" />
         <classes>
-            <class name="com.eigpay.test.parameterization.XmlTest" />
+            <class name="com.lcn.test.parameterization.XmlTest" />
         </classes>
     </test>
 </suite>

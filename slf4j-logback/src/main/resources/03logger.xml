@@ -10,7 +10,7 @@
     </appender>
 
     <!-- 有效级别为info, debug的请求级别<info的有效级别， 所以不会输出 debug的信息 -->
-    <logger name="com.eigpay.nodebug" level="INFO" />
+    <logger name="com.lcn.nodebug" level="INFO" />
 
     <root level="DEBUG">
         <appender-ref ref="STDOUT" />

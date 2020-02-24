@@ -25,12 +25,12 @@
     </bean>
 
     <!--给Dao注入连接池-->
-    <bean id="accountDao" class="com.eigpay.dao.impl.AccountDaoImpl">
+    <bean id="accountDao" class="com.lcn.dao.impl.AccountDaoImpl">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
     <!--声明业务处理类 -->
-    <bean id="accountService" class="com.eigpay.service.impl.AnnotationAccountServiceImpl">
+    <bean id="accountService" class="com.lcn.service.impl.AnnotationAccountServiceImpl">
         <property name="accountDao" ref="accountDao" />
     </bean>
 

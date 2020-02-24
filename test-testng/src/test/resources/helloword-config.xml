@@ -3,7 +3,7 @@
 <suite name="HelloWordGeneratorSuite">
     <test name="HelloWordGeneratorTest">
         <classes>
-            <class name="com.eigpay.test.HelloWordGeneratorTest"/>
+            <class name="com.lcn.test.HelloWordGeneratorTest"/>
         </classes>
     </test>
 </suite>

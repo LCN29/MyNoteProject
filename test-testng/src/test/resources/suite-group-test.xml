@@ -9,7 +9,7 @@
             </run>
         </groups>
         <classes>
-            <class name="com.eigpay.test.suite.TestDatabase" />
+            <class name="com.lcn.test.suite.TestDatabase" />
         </classes>
     </test>
 </suite>

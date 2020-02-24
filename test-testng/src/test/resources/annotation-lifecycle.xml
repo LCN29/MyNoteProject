@@ -13,7 +13,7 @@
         <!--@AfterGroups-->
         <classes>
             <!--@BeforeClass-->
-            <class name="com.eigpay.test.AnnotaionLifeCycleTest" />
+            <class name="com.lcn.test.AnnotaionLifeCycleTest" />
             <!--@AfterClass-->
         </classes>
     </test>

@@ -3,15 +3,15 @@
 <suite name="TestAll">
     <test name="order">
         <classes>
-            <class name="com.eigpay.test.suite.TestConfig" />
-            <class name="com.eigpay.test.suite.TestOrder" />
+            <class name="com.lcn.test.suite.TestConfig" />
+            <class name="com.lcn.test.suite.TestOrder" />
         </classes>
     </test>
 
     <test name="database">
         <classes>
-            <class name="com.eigpay.test.suite.TestConfig" />
-            <class name="com.eigpay.test.suite.TestDatabase" />
+            <class name="com.lcn.test.suite.TestConfig" />
+            <class name="com.lcn.test.suite.TestDatabase" />
         </classes>
     </test>
 </suite>

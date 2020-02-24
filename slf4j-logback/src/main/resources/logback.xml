@@ -19,7 +19,7 @@
         <target>System.out</target>
     </appender>
 
-    <logger name="com.eigpay.appender" level="INFO">
+    <logger name="com.lcn.appender" level="INFO">
         <appender-ref ref="STDOUT" />
     </logger>
 

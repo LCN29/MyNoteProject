@@ -3,7 +3,7 @@
 <suite name="TestAll">
     <test name="order">
         <packages>
-            <package name="com.eigpay.test.suite.*" />
+            <package name="com.lcn.test.suite.*" />
         </packages>
     </test>
 </suite>
